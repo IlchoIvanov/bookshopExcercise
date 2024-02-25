@@ -1,2 +1,7 @@
-package com.example.bookshopexcercise.Repository;public interface CategoryRepository {
+package com.example.bookshopexcercise.Repository;
+
+import com.example.bookshopexcercise.model.entity.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
 }

@@ -1,2 +1,5 @@
-package com.example.bookshopexcercise.model.entity;public enum AgeRestriction {
+package com.example.bookshopexcercise.model.entity;
+
+public enum AgeRestriction {
+    MINOR, TEEN, ADULT;
 }
